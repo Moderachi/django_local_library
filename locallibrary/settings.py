@@ -24,7 +24,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'my#9_9-8sqn6ncyrj^asut6-$=3fdi
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['moderachi-django-locallibrary.herokuapp.com']
 
 # Application definition
 
